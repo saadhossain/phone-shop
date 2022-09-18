@@ -1,0 +1,221 @@
+[
+  {
+    "id": "1",
+    "name": "Apple iPhone 14 Pro Max",
+    "img": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
+    "price": 1600,
+    "display": {
+      "resolution": "1290 x 2796 pixels, 19.5:9 ratio",
+      "size": "6.7 inches"
+    },
+    "memory": "128GB 6GB RAM",
+    "camera": {
+      "back": "48 MP : f/1.8, 12 MP: f/2.8, 12 MP: f/2.2",
+      "front": "12 MP: f/1.9"
+    },
+    "battery": "Li-Ion 4323 mAh",
+    "chipset": "Apple A16 Bionic (4 nm)",
+    "network": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+  },
+
+  {
+    "id": "2",
+    "name": "Apple iPhone 14 Pro",
+    "img": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-3.jpg",
+    "price": 1299,
+    "display": {
+      "resolution": "1179 x 2556 pixels",
+      "size": "6.1 inches, 91.7 cm2"
+    },
+    "memory": "128GB 6GB RAM",
+    "camera": {
+      "back": "48 MP: f/1.8, 12 MP: f/2.8, 12 MP: f/2.2",
+      "front": "12 MP: f/1.9"
+    },
+    "battery": "Li-Ion 3200 mAh",
+    "chipset": "Apple A16 Bionic (4 nm)",
+    "network": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+  },
+  {
+    "id": "3",
+    "name": "Apple iPhone 14",
+    "img": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg",
+    "price": 999,
+    "display": {
+      "resolution": "1170 x 2532 pixels",
+      "size": "6.1 inches, 90.2 cm2"
+    },
+    "memory": "128GB 6GB RAM",
+    "camera": {
+      "back": "12 MP: f/1.5, 12 MP: f/2.4",
+      "front": "12 MP: f/1.9"
+    },
+    "battery": "Li-Ion 3279 mAh",
+    "chipset": "Apple A15 Bionic (5 nm)",
+    "network": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+  },
+  {
+    "id": "4",
+    "name": "Samsung Galaxy A04s",
+    "img": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-fold4-5g-2.jpg",
+    "price": 170.5,
+    "display": {
+      "resolution": "720 x 1600 pixels",
+      "size": "6.5 inches"
+    },
+    "memory": "32GB 3GB RAM",
+    "camera": {
+      "back": "50 MP: f/1.8, 2 MP: f/2.4, 2 MP, f/2.4",
+      "front": "5 MP, f/2.2"
+    },
+    "battery": "Li-Po 5000 mAh",
+    "chipset": "Exynos 850 (8nm)",
+    "network": "GSM / HSPA / LTE"
+  },
+  {
+    "id": "5",
+    "name": "Samsung Galaxy A73 5G",
+    "img": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a73-5g-1.jpg",
+    "price": 510,
+    "display": {
+      "resolution": "1080 x 2400 pixels",
+      "size": "6.7 inches"
+    },
+    "memory": "128GB 6GB RAM",
+    "camera": {
+      "back": "108 MP: f/1.8, 12 MP: f/2.2, 5 MP: f/2.4, 5 MP, f/2.4",
+      "front": "32 MP: f/2.2"
+    },
+    "battery": "Li-Po 5000 mAh",
+    "chipset": "Qualcomm SM7325 Snapdragon 778G 5G",
+    "network": "GSM / HSPA / LTE / 5G"
+  },
+  {
+    "id": "6",
+    "name": "Samsung Galaxy S22+ 5G",
+    "img": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s22-plus-5g-2.jpg",
+    "price": 729.5,
+    "display": {
+      "resolution": "1440 x 3088 pixels",
+      "size": "6.8 inches"
+    },
+    "memory": "128GB 8GB RAM",
+    "camera": {
+      "back": "108 MP: f/1.8, 10 MP: f/4.9, 10 MP: f/2.4, 12 MP: f/2.2",
+      "front": "40 MP: f/2.2"
+    },
+    "battery": "Li-Ion 5000 mAh",
+    "chipset": "Exynos 2200 (4 nm) - Europe",
+    "network": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+  },
+  {
+    "id": "7",
+    "name": "Samsung Galaxy Z Fold3 5G",
+    "img": "https://fdn2.gsmarena.com/vv/pics/samsung/galaxy-z-fold-3-1.jpg",
+    "price": 1469,
+    "display": {
+      "resolution": "1768 x 2208 pixels",
+      "size": "7.6 inches"
+    },
+    "memory": "256GB 12GB RAM",
+    "camera": {
+      "back": "12 MP: f/1.8, 12 MP: f/2.4, 12 MP: f/2.2",
+      "front": "4 MP: f/1.8"
+    },
+    "battery": "Li-Po 4400 mAh",
+    "chipset": "Qualcomm SM8350 Snapdragon 888 5G (5 nm)",
+    "network": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+  },
+  {
+    "id": "8",
+    "name": "Xiaomi Redmi 11 Prime 5G",
+    "img": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-10-5g-1.jpg",
+    "price": 149.5,
+    "display": {
+      "resolution": "1080 x 2408 pixels",
+      "size": "6.58 inches"
+    },
+    "memory": "64GB 4GB RAM",
+    "camera": {
+      "back": "50 MP: f/1.8, 2 MP: f/2.4",
+      "front": "5 MP: f/2.2"
+    },
+    "battery": "Li-Po 5000 mAh",
+    "chipset": "MediaTek MT6833 Dimensity 700 (7 nm)",
+    "network": "GSM / HSPA / LTE / 5G"
+  },
+  {
+    "id": "9",
+    "name": "Xiaomi 12 Lite",
+    "img": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-12-lite-1.jpg",
+    "price": 417.5,
+    "display": {
+      "resolution": "1080 x 2400 pixels",
+      "size": "6.55 inches"
+    },
+    "memory": "128GB 6GB RAM",
+    "camera": {
+      "back": "108 MP: f/1.9, 8 MP: f/2.2, 2 MP: f/2.4",
+      "front": "32 MP: f/2.5"
+    },
+    "battery": "Li-Po 4300 mAh",
+    "chipset": "Qualcomm SM7325 Snapdragon 778G 5G (6 nm)",
+    "network": "GSM / HSPA / LTE / 5G"
+  },
+  {
+    "id": "10",
+    "name": "Xiaomi 12S Pro",
+    "img": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-12s-pro-1.jpg",
+    "price": 650.5,
+    "display": {
+      "resolution": "1440 x 3200 pixels",
+      "size": "6.73 inches"
+    },
+    "memory": "128GB 8GB RAM",
+    "camera": {
+      "back": "50 MP: f/1.9, 50 MP: f/1.9, 50 MP: f/2.2",
+      "front": "32 MP: f/2.5"
+    },
+    "battery": "Li-Po 4600 mAh",
+    "chipset": "Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)",
+    "network": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+  },
+
+  {
+    "id": "11",
+    "name":"Google Pixel 5a 5G",
+    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-5a-5g-00.jpg",
+    "price": 390,
+    "display":{
+      "resolution":"1080 x 2400 pixels",
+      "size":"6.34 inches"
+    },
+    "memory":"128GB 6GB RAM",
+    "camera":{
+      "back":"12.2 MP: f/1.7, 16 MP: f/2.2",
+      "front": "8 MP: f/2.0"
+    },
+    "battery":"Li-Po 4680 mAh",
+    "chipset":"Qualcomm SM7250 Snapdragon 765G 5G (7 nm)",
+    "network":"GSM / HSPA / EVDO / LTE / 5G"
+  },
+
+  {
+    "id": "12",
+    "name":"Google Pixel 6 Pro",
+    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-6-pro-1.jpg",
+    "price": 550,
+    "display":{
+      "resolution":"1440 x 3120 pixels",
+      "size":"6.71 inches"
+    },
+    "memory":"128GB 12GB RAM",
+    "camera":{
+      "back":"50 MP: f/1.9, 48 MP: f/3.5, 12 MP: f/2.2",
+      "front": "11.1 MP: f/2.2"
+    },
+    "battery":"Li-Ion 5003 mAh",
+    "chipset":"Google Tensor (5 nm)",
+    "network":"GSM / CDMA / HSPA / EVDO / LTE / 5G"
+  }
+]
