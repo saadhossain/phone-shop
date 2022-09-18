@@ -13,7 +13,7 @@ const displayPhones = (phones) => {
         const productSingle = document.createElement('div');
         productSingle.classList.add('card', 'card-compact', 'w-full', 'bg-base-100', 'shadow-xl');
         productSingle.innerHTML = `
-            <figure><img src="${img}" alt="Phone" class="h-80 rounded-lg"/></figure>
+            <figure class="py-3"><img src="${img}" alt="Phone" class="h-80 rounded-lg"/></figure>
             <div class="card-body">
                 <h2 class="card-title">${name}</h2>
                 <h4 class="text-lg">Price: $${price}</h4>

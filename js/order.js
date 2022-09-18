@@ -17,8 +17,8 @@ const displayOrderHistory = () =>{
         const orderSingle = document.createElement('div');
         orderSingle.classList.add('card', 'card-compact', 'w-full', 'bg-base-100', 'shadow-xl');
         orderSingle.innerHTML = `
-            <div class="flex">
-                <figure><img src="${img}" alt="Phone" class="h-80 rounded-lg"/></figure>
+            <div class="md:flex">
+                <figure class="py-3"><img src="${img}" alt="Phone" class="h-80 rounded-lg"/></figure>
                 <div class="card-body">
                     <h2 class="card-title">${name}</h2>
                     <h4 class="text-lg">Memory: ${memory}</h4>
