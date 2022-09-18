@@ -1,6 +1,6 @@
 let phonesData;
 const fetchData = async () => {
-    const res = await fetch("../js/data.json");
+    const res = await fetch("/js/data.json");
     const data = await res.json();
     phonesData = data;
     displayPhones(data);
