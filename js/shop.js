@@ -1,15 +1,15 @@
-let phonesData ;
-const fetchData = async() => {
-    const res = await fetch("../data.json");
+let phonesData;
+const fetchData = async () => {
+    const res = await fetch("../js/data.json");
     const data = await res.json();
     phonesData = data;
     displayPhones(data);
 }
 fetchData();
-const displayPhones = (phones) =>{
+const displayPhones = (phones) => {
     const productContainer = document.getElementById('product-container');
     phones.forEach(phone => {
-        const {id, price, img, name} = phone;
+        const { id, price, img, name } = phone;
         const productSingle = document.createElement('div');
         productSingle.classList.add('card', 'card-compact', 'w-full', 'bg-base-100', 'shadow-xl');
         productSingle.innerHTML = `
@@ -31,16 +31,16 @@ let cartCount = 0;
 let productPrice = 0;
 let tax = 0;
 
-const addToCart = (phoneId) =>{
+const addToCart = (phoneId) => {
     cartCount++;
     document.getElementById('cart-count').innerText = cartCount;
     document.getElementById('cart-count-mobile').innerText = cartCount;
     const product = phonesData.find((phone) => phone.id === phoneId);
-    const {price, img, name, id} = product;
+    const { price, img, name, id } = product;
     const cartContainer = document.getElementById('cart-container');
     cartContainer.innerHTML = '';
     const cartItem = document.createElement('div');
-    cartItem.classList.add('flex', 'justify-between', 'items-center','item-single');
+    cartItem.classList.add('flex', 'justify-between', 'items-center', 'item-single');
     cartItem.innerHTML = `
     <img src="${img}" class="w-[15%]"/>
     <h2>${name}</h2>
@@ -68,9 +68,9 @@ const displayfromLocalStorage = () => {
         //Set cart count
         document.getElementById('cart-count').innerText = cartData.length;
         document.getElementById('cart-count-mobile').innerText = cartData.length;
-        const {price, img, name, id} = phone;
+        const { price, img, name, id } = phone;
         const cartItem = document.createElement('div');
-        cartItem.classList.add('flex', 'justify-between', 'items-center','item-single');
+        cartItem.classList.add('flex', 'justify-between', 'items-center', 'item-single');
         cartItem.innerHTML = `
         <img src="${img}" class="w-[15%]"/>
         <h2>${name}</h2>
@@ -85,13 +85,13 @@ const displayfromLocalStorage = () => {
         const totalPrice = productPrice + tax;
         document.getElementById('total-price').innerText = totalPrice.toFixed(2);
     })
-    
+
 }
 displayfromLocalStorage();
 
 
 //Remove item from local storage
-const removeItem =(itemSingle) =>{
+const removeItem = (itemSingle) => {
     const cartData = getFromLocal();
     const remainingItem = cartData.filter(data => parseInt(data.id) !== itemSingle);
     localStorage.setItem('cart', JSON.stringify(remainingItem));
@@ -110,7 +110,7 @@ const removeItem =(itemSingle) =>{
 const showDetails = (phoneDetails) => {
     const modalDetails = phonesData.find((details) => details.id === phoneDetails);
     // console.log(modalDetails);
-    const {name, price, img, memory,camera, display,chipset, battery, network} = modalDetails;
+    const { name, price, img, memory, camera, display, chipset, battery, network } = modalDetails;
     const modalBody = document.getElementById('modalBody');
     modalBody.innerHTML = ` 
     <input type="checkbox" id="my-modal-6" class="modal-toggle" />
